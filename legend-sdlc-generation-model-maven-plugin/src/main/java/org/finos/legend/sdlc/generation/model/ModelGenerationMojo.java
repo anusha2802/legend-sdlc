@@ -69,6 +69,7 @@ public class ModelGenerationMojo extends AbstractMojo
     public void execute() throws MojoExecutionException
     {
         long generateStart = System.nanoTime();
+        getLog().info("SPECIAL BUILD INITIATED, in SDLC");
         if (this.inclusions != null)
         {
             getLog().info("include generation specification paths: " + this.inclusions.paths);

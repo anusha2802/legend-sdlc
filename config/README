@@ -1,0 +1,2 @@
+Copy config-template.yaml to config.yaml and add your gitlab clientId and secret
+gitignore is set up to avoid accidentally uploading config.yaml
