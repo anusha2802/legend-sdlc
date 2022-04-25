@@ -2,7 +2,7 @@
 # the browser. So if you access via http://localhost:7070/api/swagger, then the callback URLS better
 # have http://localhost:7070/api/... as the prefix
 
-SHADED_JAR_PATH		= ./legend-sdlc-server/target/legend-sdlc-server-0.69.2-SNAPSHOT-shaded.jar
+SHADED_JAR_PATH		= ./legend-sdlc-server/target/legend-sdlc-server-0.73.2-SNAPSHOT-shaded.jar
 
 all:
 	ls -lrt ./legend-sdlc-server/target/*shaded.jar | tail -n5
